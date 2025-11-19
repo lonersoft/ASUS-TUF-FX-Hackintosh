@@ -104,4 +104,4 @@ and probably some others I forgotten.. sorry in advance, but thanks for being he
 
 ## license
 this project is licensed under the MIT License which you may check [here](https://github.com/lonersoft/ASUS-TUF-FX-Hackintosh/blob/master/LICENSE/).
-<br>if you have any questions about this project or inquieries, please reach us at [team@loners.software](mailto:team@loaners.software).
+<br>if you have any questions about this project or inquieries, please reach us at [team@loners.software](mailto:team@loners.software).
