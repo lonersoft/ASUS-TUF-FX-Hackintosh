@@ -90,8 +90,6 @@ many thanks to these who without them, the project may have never seen the light
 
 - [DotCube123](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh) - used this as a reference for fixing stuff w/ newer versions of macOS!
 
-- [Wowstar](https://github.com/wowstar2504) - some pull requests
-
 and probably some others I forgotten.. sorry in advance, but thanks for being here!
 
 ## license
