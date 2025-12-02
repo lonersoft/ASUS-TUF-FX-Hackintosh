@@ -45,22 +45,22 @@ showcase (screenshots)
 - ❌ - broken, possible fix
 - ⛔ - impossible to fix
 
-| part       | model/data                                           | status             | other info             |
-| --------------- | ------------------------------------------------ | --------------- | ---------------          |
-| `CPU`             | Intel Core i5-8300H (Coffee Lake)             | ✅             | works |
-| `GPU`             | NVIDIA Mobile 1050Ti                        | ⛔             | no macOS drivers for NVIDIA since High Sierra |
-| `eGPU`            | Intel Graphics UHD 630                       | ✅             | works with acceleration |
-| `audio`           | Realtek ALC233                                | ✅             | works |
-| `ethernet`        | Realtek RTL8168/8111                         | ✅             | works |
-| `Wi-Fi`          | Intel Wireless-AC 9560                  | ⚠️ | works but experimental, intel wifi is quirky | 
-| `Bluetooth`      | Intel Bluetooth                              | ⚠️ | works, but same as for Intel WiFi. experimental. | 
-| `touchpad`       | Trackpad ELAN1200 I2C-HID                    | ✅             | works. if you get weird feedback, make sure to check your force touch settings! | 
-| `keyboard`       | Keyboard PS2                                 | ⚠️             | works, but backlight and function keys are crapped out | 
-| `battery`        | Asus Default Battery                         | ✅             | works | 
-| `webcam`         | USB2.0 HD UVC WebCam Internal                                              | ✅             | works | 
-| `microphone`     | Realtek micwopon                                            | ✅             | works | 
-| `USB ports`     | 3 USB 2.0, 2 USB 3.1                                         | ✅             | works, don't forget to map your USB ports | 
-| `fans`           | 2 Fans                                              | ⚠️             | works, but no accurate fan readings |
+| part            | model/data                                       | status          | other info               |
+| --------------- | ------------------------------------------------ | --------------- | -------------------------|
+| `CPU`           | Intel Core i5-8300H (Coffee Lake)                | ✅             | works |
+| `GPU`           | NVIDIA Mobile 1050Ti                             | ⛔             | no macOS drivers for NVIDIA since High Sierra |
+| `eGPU`          | Intel Graphics UHD 630                           | ✅             | works with acceleration |
+| `audio`         | Realtek ALC233                                   | ✅             | works |
+| `ethernet`      | Realtek RTL8168/8111                             | ✅             | works |
+| `Wi-Fi`         | Intel Wireless-AC 9560                           | ⚠️             | works but experimental, intel wifi is quirky | 
+| `Bluetooth`     | Intel Bluetooth                                  | ⚠️             | works, but same as for Intel WiFi. experimental. | 
+| `touchpad`      | Trackpad ELAN1200 I2C-HID                        | ✅             | works. if you get weird feedback, make sure to check your force touch settings! | 
+| `keyboard`      | Keyboard PS2                                     | ⚠️             | works, but backlight and function keys are crapped out | 
+| `battery`       | Asus Default Battery                             | ✅             | works | 
+| `webcam`        | USB2.0 HD UVC WebCam Internal                    | ✅             | works | 
+| `microphone`    | Realtek micwopon                                 | ✅             | works | 
+| `USB ports`     | 3 USB 2.0, 2 USB 3.1                             | ✅             | works, don't forget to map your USB ports | 
+| `fans`          | 2 Fans                                           | ⚠️             | works, but no accurate fan readings |
 
 ## how to use
 if you've never done this, please check out [Dortania's guide](https://dortania.github.io/OpenCore-Install-Guide/)! this is the most accurate place for information.
@@ -73,16 +73,6 @@ you can then boot and try to install, and enjoy!
 this is free and open source software! I don't expect any kind of funding or donations, but they are always appreciated as this is work that's definitly free will and getting some donation helps keep up the good work! Your donation will only and ONLY be used towards improving our software in the [organization's mission](https://hcb.hackclub.com/lonersoft/donations). we are fully transparent and open source with our finances!
 
 [you can donate here](https://hcb.hackclub.com/donations/start/lonersoft) and [check our finances here](https://hcb.hackclub.com/lonersoft)!
-
-## contributing
-contributions of any kinds are accepted. you can, for example, add compatibility for other laptops of this similar kind and publish your EFI suggestions in this repo! to get started, clone the repository, and open it in a PLIST editor:
-
-```sh
-git clone https://github.com/lonersoft/ASUS-TUF-FX-Hackintosh.git
-cd "ASUS-TUF-FX-Hackintosh"
-```
-
-you may then request your modifications via a PR.
 
 ## reporting issues
 this is a community project, and your help is very much appreciated! if you notice anything wrong during your usage of this software, please report it to the [GitHub issues page](https://github.com/lonersoft/ASUS-TUF-FX-Hackintosh/issues/)!
@@ -99,6 +89,8 @@ many thanks to these who without them, the project may have never seen the light
 - [RehabMan](https://github.com/RehabMan) - different ACPI patches that helped very well!
 
 - [DotCube123](https://github.com/DotCube123/Asus-Tuf-Gaming-FX705GE-Hackintosh) - used this as a reference for fixing stuff w/ newer versions of macOS!
+
+- [Wowstar](https://github.com/wowstar2504) - some pull requests
 
 and probably some others I forgotten.. sorry in advance, but thanks for being here!
 
