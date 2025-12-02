@@ -5,11 +5,10 @@ to get started, clone the repository, and open it in a PLIST editor.
 <details>
   <summary>How to clone the repository</summary>
 
-  ```
-  git clone https://github.com/lonersoft/ASUS-TUF-FX-Hackintosh.git
-
-  cd "ASUS-TUF-FX-Hackintosh"
-  ```
+  <pre>
+    git clone https://github.com/lonersoft/ASUS-TUF-FX-Hackintosh.git
+    cd "ASUS-TUF-FX-Hackintosh"
+  </pre>
 
 </details>
 Thank you for contributing!
